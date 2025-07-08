@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lala Santos - WhatsApp</title>
+  <title>Lais Borges - WhatsApp</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -90,29 +90,29 @@
 
   <div class="container">
     <div class="profile">
-      <img src="https://i.postimg.cc/TYv54w0x/lala-profile.jpg" alt="Lala Santos">
+      <img src="https://i.postimg.cc/zXNJbDLk/Imagem-do-Whats-App-de-2025-06-21-s-00-30-09-e4834389.jpg" alt="Lais Borges">
       <div class="online-indicator"></div>
     </div>
 
-    <h2>LALA SANTOS</h2>
+    <h2>Lais Borges</h2>
     <p>21 anos</p>
-    <p>Bahia / RJ</p>
+    <p>Bahia / Rio de Janeiro</p>
 
-    <button type="button" class="btn-whatsapp" onclick="redirecionarWhatsApp()">Falar no WhatsApp</button>
+    <button class="btn-whatsapp" onclick="redirecionarWhatsApp()">Falar no WhatsApp</button>
   </div>
 
   <script>
     const numerosWhatsApp = [
-      '557388158779',  // Número 1
-      '557391360459',  // Número 2
-      '557391352953',  // Número 3
-      '557388158676'   // Número 4
+      '557388240640',  // Novo número principal
+      '557388226616',  // Número secundário
+      '557391352953',  // Número secundário: 55 73 9135-2953
+      '557388158676'   // Número secundário: 55 73 8815-8676
     ];
 
     function redirecionarWhatsApp() {
       const index = Math.floor(Math.random() * numerosWhatsApp.length);
       const numero = numerosWhatsApp[index];
-      const mensagem = encodeURIComponent("Oi Lala, vi seu perfil e quero saber mais 😘");
+      const mensagem = encodeURIComponent("Oi Lais, tenho interesse!");
       const link = `https://wa.me/${numero}?text=${mensagem}`;
       window.location.href = link;
     }
